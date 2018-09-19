@@ -131,14 +131,31 @@ section.empresas footer img.logos-empresas{
   width: 50% ;
   padding: 5%;
 }
-/*section.empresas footer img.col-izq{
-  float: left;
-  padding-bottom: 10%;
-}
-section.empresas footer img.col-der{
-  float: right;
-  padding-bottom: 10%;
-}*/
 section.empresas footer img.col-centro{
   margin: 0 auto;
+}
+/* --- SSECTION 4 CTA --- */
+section.cta{
+  background-repeat: repeat;
+  background-color: #3f46ad;
+  background-image: url("https://a.slack-edge.com/1fd8/spacesuit/source/images/backgrounds/bg_halftone_black_20p@2x.png");
+  background-size: 1300px 700px;
+  align-items: center;
+  text-align: center;
+}
+section.cta h2{
+  color:white;
+  padding: 25% 10% 5% 10%;
+}
+section.cta button{
+  background:white;
+  border:none;
+  border-radius:5px;
+  padding: 20px 60px;
+  color:#1c299d;
+  text-transform:uppercase;
+  font-style:bold;
+  font-size: .9rem;
+  font-weight: 700;
+  margin:0 20px 10% 20px;
 }
