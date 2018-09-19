@@ -1,0 +1,87 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* --- Layout ---*/
+.container{
+  margin: 0 20px;
+}
+img{
+  max-width: 100%;
+}
+/* --- typos --*/
+h1{
+  font-size: 2.2rem;
+}
+h2{
+  font-size:1.625rem;
+}
+span, p{
+  color: #5b5e6d;
+  font-family: appleLogo,sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+  font-size: 1.0625rem;
+}
+/* --- Header --- */
+header .nav-bar ul{
+  display:none;
+}
+header .slack-logo{
+  height: 52px;
+  float: left;
+}
+header .burger-menu-icon{
+  height: 42px;
+  padding:10px 0 0;
+  float: right;
+}
+header.cabecera{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+  top: 0;
+  left: 0;
+}
+/* --- SECTION 1 --- */
+section.presentacion{
+  padding-top: 70px;
+}
+section.presentacion button{
+  background:#3f46ad;
+  border:none;
+  border-radius:5px;
+  width:100%;
+  padding: 20px 40px;
+  color:white;
+  text-transform:uppercase;
+  font-style:bold;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+/*Valores*/
+section.valores article img{
+  height:60px;
+  margin-bottom:10px;
+}
+section.valores footer a{
+  text-align:center;
+  display:block;
+  font-weight:600;
+  text-decoration: none;
+  border-bottom:1px solid #3f46ad;
+  color:#3f46ad;
+}
