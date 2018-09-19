@@ -100,15 +100,45 @@ section.empresas article span{
   color: #323648;
   font-size: 1rem;
 }
-section.empresas article h3{
+section.empresas article h3,span{
   padding:0 33% 10px 10px;
 }
 section.empresas article .foto-noticia{
   width: 100%;
 }
-.mas-info{
-
+section.empresas article div.mas-info{
+  overflow: hidden;
+  padding: 5%;
+}
+section.empresas article div.mas-info span{
+  color: #3f46ad;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .burger-mas-info{
-  height: 88;
+  height: 20px;
+  float: right;
+}
+
+/* --- SECTION 3 FOOTER LOGOS --- */
+
+section.empresas footer{
+  /*overflow: hidden;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+section.empresas footer img.logos-empresas{
+  width: 50% ;
+  padding: 5%;
+}
+/*section.empresas footer img.col-izq{
+  float: left;
+  padding-bottom: 10%;
+}
+section.empresas footer img.col-der{
+  float: right;
+  padding-bottom: 10%;
+}*/
+section.empresas footer img.col-centro{
+  margin: 0 auto;
 }
