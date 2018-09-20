@@ -29,6 +29,7 @@ h3{
   line-height: 1.45;
     letter-spacing: normal;
     font-size: 1.5rem;
+    margin: 0;
 }
 h4{
   margin:0;
@@ -103,13 +104,15 @@ section.empresas article{
   box-shadow: 0 0 2rem rgba(0,0,0,.1);
   margin: 3%;
 }
+section.empresas article header{
+  padding:20px 33% 20px 20px;
+}
+}
 section.empresas article span{
   color: #323648;
   font-size: 1rem;
 }
-section.empresas article h3,span{
-  padding:0 33% 10px 10px;
-}
+
 section.empresas article .foto-noticia{
   width: 100%;
 }
@@ -131,13 +134,18 @@ section.empresas article div.mas-info span{
 
 section.empresas footer{
   /*overflow: hidden;*/
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
+  text-align: center;
 }
-section.empresas footer img.logos-empresas{
-  width: 50% ;
-  padding: 5%;
+
+section.empresas footer img{
+  margin: 10px;
 }
+section.empresas footer img.capitalone{
+  width: 115px;
+}
+
 section.empresas footer img.col-centro{
   margin: 0 auto;
 }
@@ -167,6 +175,10 @@ section.cta button{
   margin:0 20px 10% 20px;
 }
 /* --- SECTION 5 --- */
+.imagen-logo-peq{
+  width: 15%;
+  padding-top: 30px;
+}
 section.enlaces ul.lista-de-listas, ul.lista-de-listas ul{
 text-decoration: none;
 color: #6d6f7b;
