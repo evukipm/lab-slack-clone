@@ -159,3 +159,14 @@ section.cta button{
   font-weight: 700;
   margin:0 20px 10% 20px;
 }
+/* --- SECTION 5 --- */
+section.enlaces ul.lista-de-listas, ul.lista-de-listas ul{
+text-decoration: none;
+color: #6d6f7b;
+list-style: none;
+text-align: left;
+padding-left: 0;
+line-height: 1.2;
+letter-spacing: normal;
+font-size: 1rem;
+}
