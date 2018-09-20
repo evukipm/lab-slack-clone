@@ -30,6 +30,13 @@ h3{
     letter-spacing: normal;
     font-size: 1.5rem;
 }
+h4{
+  margin:0;
+  font-weight: bold;
+  text-transform:uppercase;
+  padding:20px 0;
+}
+ 
 span, p{
   color: #5b5e6d;
   font-family: appleLogo,sans-serif;
@@ -170,9 +177,13 @@ line-height: 1.2;
 letter-spacing: normal;
 font-size: 1rem;
 }
+section.enlaces ul.lista-de-listas li{
+  padding:20px 0;
+}
+
 /* --- Footer --- */
 footer img{
-  max-height:20px;
+  height:15px;
   margin:0 10px;
  }
  footer ul{
@@ -185,5 +196,8 @@ footer img{
   padding:15px;
   text-align:center;
   color:#6d6f7b;
-  font-style:bold;
+  font-weight:700;
+ }
+ .footer .icons img{
+   height:25px;
  }
