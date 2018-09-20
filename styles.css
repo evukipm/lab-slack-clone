@@ -160,6 +160,10 @@ section.cta button{
   margin:0 20px 10% 20px;
 }
 /* --- SECTION 5 --- */
+.imagen-logo-peq{
+  width: 40%;
+  padding-top: 30px;
+}
 section.enlaces ul.lista-de-listas, ul.lista-de-listas ul{
 text-decoration: none;
 color: #6d6f7b;
@@ -171,7 +175,7 @@ letter-spacing: normal;
 font-size: 1rem;
 }
 /* --- Footer --- */
-footer img{
+footer.footer-final img{
   max-height:20px;
   margin:0 10px;
  }
